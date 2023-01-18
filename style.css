@@ -1,0 +1,55 @@
+:root {
+    --colorOne: #BE3455;
+    --colorTwo: #EDCDC2;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--colorOne);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50 px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px
+}
+
+form button {
+    border: none;
+    background: var(--colorTwo);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background: var(--colorOne);
+}
+
+.relogio {
+    font-size: 3em;
+}
